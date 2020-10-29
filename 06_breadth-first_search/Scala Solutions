@@ -4,7 +4,7 @@ import scala.collection.immutable.HashMap
 import scala.collection.{immutable, mutable}
 
 
-object BreadthFirstSearch extends App {
+object bfs.BreadthFirstSearch extends App {
 
   val graph  = HashMap(
     ("you" -> Vector("alice", "bob", "claire")),
